@@ -30,4 +30,4 @@ https://andres-website.github.io/whatsapp_link
 * avatar - адрес до аватара относительно корневой дирректории. Пример: /assets/my-avatar.png. Рекомендуемый размер: 165x165 или готовый для x3 ретины: 495x495. (при отсутствии параметра: показывает стандартный аватар, лежащий в папке /assets/default-avatar.png)
 
 # При поддержке
-[КиТ системы][https://www.kitsystem.ru]
+[КиТ системы](https://www.kitsystem.ru/konditsionery "Торгово-монтажная компания. Интернет-магазин")
