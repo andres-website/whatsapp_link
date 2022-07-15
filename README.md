@@ -31,7 +31,7 @@ https://andres-website.github.io/whatsapp_link
 
 # Спасибо
 
-[Daniil Tarassenko](https://github.com/justrussian/whatsapp-link/)
+[Daniil Tarassenko](https://github.com/justrussian/whatsapp-link/). Решение, которое взял за основу напсал и (!) выложил на GitHub этот добрый человек.
 
 # При поддержке
 [КиТ системы](https://www.kitsystem.ru "Торгово-монтажная компания. Интернет-магазин")
