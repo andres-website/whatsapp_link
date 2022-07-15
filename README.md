@@ -30,6 +30,17 @@ https://andres-website.github.io/whatsapp_link?phone=79139150817
 * name - имя, которое будет отображаться на странице. Пример: КиТ системы. (при отсутствии параметра: просто не показывает имя)
 * avatar - адрес до аватара относительно корневой дирректории. Пример: /assets/my-avatar.png. Рекомендуемый размер: 165x165 или готовый для x3 ретины: 495x495. (при отсутствии параметра: показывает стандартный аватар, лежащий в папке /assets/default-avatar.png)
 
+
+# Demo с не обязательными параметрами
+
+https://andres-website.github.io/whatsapp_link?phone=79139150817&text=hello%20Boy
+https://andres-website.github.io/whatsapp_link?phone=79139150817&name=КиТ%20системы
+https://andres-website.github.io/whatsapp_link?phone=79139150817&avatar=./assets/custom-avatar.png
+
+**Можно комбинировать:**
+
+https://andres-website.github.io/whatsapp_link?phone=79139150817&text=hello%20Boy&name=КиТ%20системы&avatar=./assets/custom-avatar.png
+
 # Спасибо
 
 Решение, которое я взял за основу — напсал и (!) выложил на GitHub — [Daniil Tarassenko](https://github.com/justrussian/whatsapp-link/).
