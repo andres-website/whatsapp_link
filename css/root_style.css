@@ -1,0 +1,112 @@
+html, body {
+  height: 100%;
+}
+a {
+    color: #128c7e;
+}
+a:visited {
+    color: #075e54;
+}
+a:active {
+    color: #075e54;
+}
+a:hover {
+    cursor: pointer;
+}
+.hidden {
+  display: none!important;
+}
+.footer {
+  padding: 20px 0;
+  font-size: 11px;
+}
+.btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+.form-control {
+    border-radius: 0;
+    max-width: 400px;
+    margin: auto;
+}
+#convert-btn, #link {
+  background-color: #128c7e;
+  border-color: #128c7e;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+#convert-btn, #linkweb {
+  background-color: #FFFFFF;
+  border-color: #128c7e;
+  color: #128c7e;
+  font-weight: bold;
+}
+#inputUrl {
+  margin-bottom: 20px;
+}
+#convert-form {
+  width: 100%;
+}
+.title {
+    color: #333333;
+    max-width: 400px;
+    margin: auto;
+    font-weight: normal;
+    font-size: 16px;
+}
+.descript {
+    color: #666666;
+    max-width: 400px;
+    margin: auto;
+    font-weight: normal;
+    font-size: 12px;
+}
+.attention {
+    color: #333333;
+    max-width: 400px;
+    margin: auto;
+    font-weight: normal;
+    font-size: 12px;
+}
+.misc {
+    color: #333333;
+    max-width: 400px;
+    margin: auto;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.pop-block {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    width: 100%;
+    max-width:450px;
+}
+.close-block {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: -28px;
+    height: 28px;
+    width: auto;
+    background: #ddd;
+    color: #000;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#pop-checkbox {
+    display: none;
+}
+#pop-checkbox:checked + .pop-block {
+    display: none;
+}
+#fixblock {
+    display: block;
+}
+
+#yandex_rtb_R-A-636289-1 {
+    margin-left: auto;
+}
