@@ -35,9 +35,11 @@ https://andres-website.github.io/whatsapp_link?phone=79139150817
 
 # Demo с не обязательными параметрами
 
-https://andres-website.github.io/whatsapp_link?phone=79139150817&text=hello%20Boy
-https://andres-website.github.io/whatsapp_link?phone=79139150817&name=КиТ%20системы
-https://andres-website.github.io/whatsapp_link?phone=79139150817&avatar=./assets/custom-avatar.png
+text: https://andres-website.github.io/whatsapp_link?phone=79139150817&text=hello%20Boy
+
+name: https://andres-website.github.io/whatsapp_link?phone=79139150817&name=КиТ%20системы
+
+avatar: https://andres-website.github.io/whatsapp_link?phone=79139150817&avatar=./assets/custom-avatar.png
 
 **Можно комбинировать:**
 
