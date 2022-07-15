@@ -1,8 +1,0 @@
-@media (max-width: 767px) { /* Mobile */
-
-	.btn {
-		width: 100%;
-		min-width: auto;
-	    padding: 16px 16px 18px 16px;
-	}
-}
