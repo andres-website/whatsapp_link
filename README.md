@@ -24,13 +24,20 @@ https://andres-website.github.io/whatsapp_link?phone=79139150817
 Рекомендую сразу запретить адрес по которому будет доступна данная страница - для индекскации поисковыми ботами в robots.txt.
 
 ## Параметры
+
 Принимает один обязательный GET-параметр:
+
 * phone - номер телефона в том же формате, в котором указывается для обычного WhatsApp. Пример: ?phone=79139150817
 
 Необязательные GET-параметры:
+
 * text - текст, который будет подставлен в инпут ввода сообщения (нативная фича)
+
 * name - имя, которое будет отображаться на странице. Пример: КиТ системы. (при отсутствии параметра: просто не показывает имя)
+
 * avatar - адрес до аватара относительно корневой дирректории. Пример: /assets/my-avatar.png. Рекомендуемый размер: 165x165 или готовый для x3 ретины: 495x495. (при отсутствии параметра: показывает стандартный аватар, лежащий в папке /assets/default-avatar.png)
+
+* btn_back - добавляет кнопку Вернуться на сайт
 
 
 ## Demo с не обязательными параметрами
@@ -41,9 +48,11 @@ name: https://andres-website.github.io/whatsapp_link?phone=79139150817&name=Ки
 
 avatar: https://andres-website.github.io/whatsapp_link?phone=79139150817&avatar=./assets/custom-avatar.png
 
+btn_back: https://andres-website.github.io/whatsapp_link?phone=79139150817?btn_back=1
+
 **Можно комбинировать:**
 
-https://andres-website.github.io/whatsapp_link?phone=79139150817&text=hello%20Boy&name=КиТ%20системы&avatar=./assets/custom-avatar.png
+https://andres-website.github.io/whatsapp_link?phone=79139150817&text=hello%20Boy&name=КиТ%20системы&avatar=./assets/custom-avatar.png&btn_back=1
 
 ## Рекомендации
 

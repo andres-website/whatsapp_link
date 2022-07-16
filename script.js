@@ -92,7 +92,7 @@ if ('avatar' in get_props && get_props.avatar) {
 	avatar = get_props.avatar
 }
 
-if ('get_btn_back' in get_props && get_props.get_btn_back) {
+if ('btn_back' in get_props && get_props.btn_back) {
 	
 	is_get_btn_back = true
 	var btn_back = document.querySelector('.js_btn_name_back')}
