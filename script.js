@@ -135,3 +135,15 @@ if (isDesktop) {
 	location.href = `whatsapp://send?phone=${phone}`;
 	document.querySelector('body').classList.add('state__device-mobile')
 }
+
+
+// Кнопка Назад
+if( (1 < history.length) && document.referrer ) {
+	// history.back();
+console.log ('Назад можно')
+}
+else {
+// If you can't go back in history, you could perhaps close the window ?
+//window.close();
+console.log ('Назад нельзя, только закрыть')
+}
