@@ -75,6 +75,7 @@ var phone = get_props.phone
 var text = ''
 var nick_name = ''
 var avatar = ''
+var is_get_btn_back = false
 
 if ('text' in get_props && get_props.text) {
 	
@@ -90,6 +91,13 @@ if ('avatar' in get_props && get_props.avatar) {
 	
 	avatar = get_props.avatar
 }
+
+if ('get_btn_back' in get_props && get_props.get_btn_back) {
+	
+	is_get_btn_back = true
+	var btn_back = document.querySelector('.js_btn_name_back')}
+	btn_back.style.display = 'inline-block'
+
 
 var link_for_btn_web = create_link_for_btn_web(phone, text)
 var link_for_btn_app = create_link_for_btn_app(phone, text)
@@ -121,13 +129,13 @@ myWhatsappFunction();
 // Если десктоп - проверяем наличие установленного воца
 if (isDesktop) {
 	
-	detectWhatsapp(phone, '').then(hasWhatsapp =>
+/* 	detectWhatsapp(phone, '').then(hasWhatsapp =>
 	  console.log (
 	     'You ' + 
 	        (hasWhatsapp ? 'have WhatsApp' + handleInstalledWhatsapp ()  : "don't have WhatsApp" + handleNotInstalledWhatsapp() )
 	  )
 	  
-	)
+	) */
 
 // Если мобила - открываем приложение по схеме: whatsapp://send?phone=
 } else {
@@ -138,12 +146,26 @@ if (isDesktop) {
 
 
 // Кнопка Назад
-if( (1 < history.length) && document.referrer ) {
-	// history.back();
-console.log ('Назад можно')
+
+function handler_click_btn_back () {
+
+	// console.log('Назад');
+	if( (1 < history.length) && document.referrer ) {
+		history.back();
+		console.log ('Назад можно')
+	}
+	else {
+		// If you can't go back in history, you could perhaps close the window ?
+		window.close();
+		console.log ('Назад нельзя, только закрыть')
+	}
+
+	return true
 }
-else {
-// If you can't go back in history, you could perhaps close the window ?
-//window.close();
-console.log ('Назад нельзя, только закрыть')
+
+
+if (btn_back) {
+
+	btn_back.addEventListener('click', handler_click_btn_back)
 }
+

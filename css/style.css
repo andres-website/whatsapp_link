@@ -44,8 +44,12 @@ body.state__device-mobile #linkweb.btn_name_wa-app {
     color: #FFFFFF;
 }
 
+
+.btn-block+.btn-block {
+    margin-top: 0;
+}
 .btn_name_wa-app {
-    margin: 0 !important;
+    margin-top: 0;
 }
 
 .i_h1_name_name {
