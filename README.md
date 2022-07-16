@@ -48,7 +48,7 @@ name: https://andres-website.github.io/whatsapp_link?phone=79139150817&name=Ки
 
 avatar: https://andres-website.github.io/whatsapp_link?phone=79139150817&avatar=./assets/custom-avatar.png
 
-btn_back: https://andres-website.github.io/whatsapp_link?phone=79139150817?btn_back=1
+btn_back: https://andres-website.github.io/whatsapp_link?phone=79139150817&btn_back=1
 
 **Можно комбинировать:**
 
