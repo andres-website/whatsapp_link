@@ -95,9 +95,9 @@ if ('avatar' in get_props && get_props.avatar) {
 if ('btn_back' in get_props && get_props.btn_back) {
 	
 	is_get_btn_back = true
-	var btn_back = document.querySelector('.js_btn_name_back')}
+	var btn_back = document.querySelector('.js_btn_name_back')
 	btn_back.style.display = 'inline-block'
-
+}
 
 var link_for_btn_web = create_link_for_btn_web(phone, text)
 var link_for_btn_app = create_link_for_btn_app(phone, text)
