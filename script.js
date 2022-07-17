@@ -129,13 +129,13 @@ myWhatsappFunction();
 // Если десктоп - проверяем наличие установленного воца
 if (isDesktop) {
 	
-/* 	detectWhatsapp(phone, '').then(hasWhatsapp =>
+ 	detectWhatsapp(phone, '').then(hasWhatsapp =>
 	  console.log (
 	     'You ' + 
 	        (hasWhatsapp ? 'have WhatsApp' + handleInstalledWhatsapp ()  : "don't have WhatsApp" + handleNotInstalledWhatsapp() )
 	  )
 	  
-	) */
+	)
 
 // Если мобила - открываем приложение по схеме: whatsapp://send?phone=
 } else {
