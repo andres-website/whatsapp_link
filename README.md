@@ -1,5 +1,5 @@
 ## WhatsApp link
-Страница для открытия WhatApp по номеру, в зависимости от устройства и установленной Desktop программы.
+Страница для открытия WhatApp по номеру, в зависимости от устройства и наличия установленной Desktop программы.
 
 ### Demo
 https://andres-website.github.io/whatsapp_link?phone=79139150817
