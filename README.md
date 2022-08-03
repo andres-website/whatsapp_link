@@ -18,7 +18,7 @@ https://andres-website.github.io/whatsapp_link?phone=79139150817
 
 
 ## Зачем?
-После блокировки Facebook - страница WhatApp для перехода в WhatApp Web или открытия десктопной программы - не работает (([уже нет](#Update)) (пример: https://api.whatsapp.com/send?phone=79139150817).
+После блокировки Facebook - страница WhatApp для перехода в WhatApp Web или открытия десктопной программы - не работает ([уже работает](#Update)) (пример: https://api.whatsapp.com/send?phone=79139150817).
 
 Данный проект заменяет её (в большей степени копирует).
 
